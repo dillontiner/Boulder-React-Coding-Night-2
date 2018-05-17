@@ -25,36 +25,42 @@ https://www.googleapis.com/civicinfo/v2/elections?key=[key]
 https://www.googleapis.com/civicinfo/v2/voterinfo?key=[key]&electionId=2000&address=[address]
 ```
 
+## Nav
+* Home - Screen 1
+* Representatives List - Screen 2
+* Elections List - Screen 3
 
+## Screens:
 
-## User Stories
-### Elected Officials
+### Screen 1 - Home
 * User can enter address or allow app to access current location
 * User can enter party affiliation
+
+### Screen 2 - Representatives List
 * User can see list of their own current representatives
 * User can click on their own current representatives to see additional info.
-### Elections
+
+### Screen 3 - Elections List
 * User can see a list of all upcoming elections
 * User can filter elections by state
 * User can see elections in their own state highlighted
 * User can click on particular election
 * User can see seats up for grabs
+* User can share elections.
+
+### Screen 4 - Candidate List
 * User can see full list of candidates for each seat
 * User can see candidates highlighted in Blue, Red, or Yellow according to their affiliations.
 * User can click on candidate
-* User can see candidate details/links
-* User can Filter candidates by party affiliation
-
-### Social Sharing
-* User can share elections.
-* User can share candidates.
+* Candidate Screen?
+    * User can see candidate details/links
+    * User can Filter candidates by party affiliation
+    * User can share candidates.
 
 ### Extra Credit
 * Make a progressive web app
 * User can save to desktop
 * User can persist address
-
-
 
 ## Deployment Instructions
 * `npm run build`
