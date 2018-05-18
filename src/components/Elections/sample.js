@@ -1,4 +1,4 @@
-{
+module.exports = {
  "kind": "civicinfo#electionsQueryResponse",
  "elections": [
   {
