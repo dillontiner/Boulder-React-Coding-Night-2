@@ -11,17 +11,17 @@
 
 
 ## API Resources
-* 1) Get current representatives by address
+1) Get current representatives by address
 ```
 https://www.googleapis.com/civicinfo/v2/representatives?key=[key]&address=[address]
 ```
 
-* 2) Get all elections
+2) Get all elections
 ```
 https://www.googleapis.com/civicinfo/v2/elections?key=[key]
 ```
 
-* 3) Get individual election by address & election id
+3) Get individual election by address & election id
 ```
 https://www.googleapis.com/civicinfo/v2/voterinfo?key=[key]&electionId=2000&address=[address]
 ```
@@ -37,7 +37,7 @@ https://www.googleapis.com/civicinfo/v2/voterinfo?key=[key]&electionId=2000&addr
 
 ### Officials Page (API 1)
 * User can enter zip code to see a list of representatives by location
-* User can enter/save party affiliation (using local storage)
+* User can enter/save party affiliation
 * User can see nested lists of 1) divisions 2) offices for each division and 3) officials for each office
 * User can click on a single official to navigate to a page for that official
 
@@ -64,11 +64,3 @@ https://www.googleapis.com/civicinfo/v2/voterinfo?key=[key]&electionId=2000&addr
 * Make a progressive web app
 * User can save to desktop
 * User can persist address
-
-## Deployment Instructions
-* `npm run build`
-* `npm run surge`
-* You'll be prompted to create a surge account if you don't have one
-* IMPORTANT: add `build` to the end of the project path
-* Leave the default domain or modify the value before `.surge.sh`
-* Copy the URL and visit your site!
