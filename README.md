@@ -4,23 +4,24 @@
 
 
 ## Start
-* Fork and clone this repo
+* Fork this repo into your personal github account
+* Clone from your repo onto your local machine
 * Run `npm install`
 * Run `npm start`
 
 
 ## API Resources
-* Get current representatives by address
+* 1) Get current representatives by address
 ```
 https://www.googleapis.com/civicinfo/v2/representatives?key=[key]&address=[address]
 ```
 
-* Get elections
+* 2) Get all elections
 ```
 https://www.googleapis.com/civicinfo/v2/elections?key=[key]
 ```
 
-* Get election options by address & election id
+* 3) Get individual election by address & election id
 ```
 https://www.googleapis.com/civicinfo/v2/voterinfo?key=[key]&electionId=2000&address=[address]
 ```
@@ -28,26 +29,30 @@ https://www.googleapis.com/civicinfo/v2/voterinfo?key=[key]&electionId=2000&addr
 
 
 ## User Stories
-### Elected Officials
-* User can enter address or allow app to access current location
-* User can enter party affiliation
-* User can see list of their own current representatives
-* User can click on their own current representatives to see additional info.
-### Elections
+
+### Home Page (API 1)
+* User can enter zip code to see a list of representatives by location
+* User can enter/save party affiliation (using local storage)
+* User can see nested lists of 1) divisions 2) offices for each division and 3) officials for each office
+* User can click on a single official to see a page of info for that official
+
+### Official's Page (API 1)
+* User can click links on the official's page to view website and social media (icons)
+
+### All Elections Page (API 2)
 * User can see a list of all upcoming elections
-* User can filter elections by state
-* User can see elections in their own state highlighted
-* User can click on particular election
+* User can click on a particular election to see a page of info for that election
+
+### Individual Elections Page (API 3)
 * User can see seats up for grabs
 * User can see full list of candidates for each seat
-* User can see candidates highlighted in Blue, Red, or Yellow according to their affiliations.
-* User can click on candidate
-* User can see candidate details/links
-* User can Filter candidates by party affiliation
+* User can see candidates highlighted different colors based on party affiliation
+* User can click on candidate to see details/links for that person
+* User can filter candidates by party affiliation
 
 ### Social Sharing
-* User can share elections.
-* User can share candidates.
+* User can share elections
+* User can share candidates
 
 ### Extra Credit
 * Make a progressive web app
