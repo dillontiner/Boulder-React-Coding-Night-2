@@ -26,24 +26,30 @@ https://www.googleapis.com/civicinfo/v2/elections?key=[key]
 https://www.googleapis.com/civicinfo/v2/voterinfo?key=[key]&electionId=2000&address=[address]
 ```
 
+## Nav
+* Officials (Home page)
+* Elections
 
+
+## Screens:
 
 ## User Stories
 
-### Home Page (API 1)
+### Officials Page (API 1)
 * User can enter zip code to see a list of representatives by location
 * User can enter/save party affiliation (using local storage)
 * User can see nested lists of 1) divisions 2) offices for each division and 3) officials for each office
-* User can click on a single official to see a page of info for that official
+* User can click on a single official to navigate to a page for that official
 
-### Official's Page (API 1)
+### Individual Official Page (API 1)
+* User can see all info for official
 * User can click links on the official's page to view website and social media (icons)
 
-### All Elections Page (API 2)
+### Elections Page (API 2)
 * User can see a list of all upcoming elections
-* User can click on a particular election to see a page of info for that election
+* User can click on a particular election to navigate to a page of info for that election
 
-### Individual Elections Page (API 3)
+### Individual Election Page (API 3)
 * User can see seats up for grabs
 * User can see full list of candidates for each seat
 * User can see candidates highlighted different colors based on party affiliation
@@ -58,8 +64,6 @@ https://www.googleapis.com/civicinfo/v2/voterinfo?key=[key]&electionId=2000&addr
 * Make a progressive web app
 * User can save to desktop
 * User can persist address
-
-
 
 ## Deployment Instructions
 * `npm run build`
