@@ -37,7 +37,7 @@ https://www.googleapis.com/civicinfo/v2/voterinfo?key=[key]&electionId=2000&addr
 
 ### Officials Page (API 1)
 * User can enter zip code to see a list of representatives by location
-* User can enter/save party affiliation
+* User can enter party affiliation
 * User can see nested lists of 1) divisions 2) offices for each division and 3) officials for each office
 * User can click on a single official to navigate to a page for that official
 
